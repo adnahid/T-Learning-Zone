@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Activity.Skill"
+    android:background="@color/white"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@drawable/baseline_menu_24"
+        app:title="Build up"
+        app:titleTextColor="@color/white"
+        android:background="#4958dc"
+        >
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:id="@+id/topRelative"
+        android:layout_width="match_parent"
+        android:layout_height="335dp"
+        android:layout_below="@id/toolbar"
+        android:padding="1dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="2dp"
+                android:orientation="horizontal"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/programing"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="5dp"
+                        android:backgroundTint="#e0e0f9"
+                        tools:context=".MainActivity"
+                        android:layout_margin="3dp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:focusable="true"
+                        app:cardCornerRadius="12dp"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+
+
+                            <ImageView
+                                android:id="@+id/programingImage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="100dp"
+                                android:src="@drawable/message"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="3dp"
+                                android:padding="15dp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:text="Programing"
+                                android:layout_gravity="center_horizontal"
+                                android:textStyle="bold"
+                                android:textColor="#9C27B0"
+                                android:layout_marginBottom="10dp"
+                                />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/digital"
+                        android:layout_width="150dp"
+                        android:layout_height="160dp"
+                        android:elevation="5dp"
+                        android:backgroundTint="#e0e0f9"
+                        tools:context=".MainActivity"
+                        android:layout_margin="3dp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:focusable="true"
+                        app:cardCornerRadius="12dp"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+
+
+                            <ImageView
+                                android:id="@+id/digitalImage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="100dp"
+                                android:src="@drawable/message"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="3dp"
+                                android:padding="15dp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:text="Digital Marketing"
+                                android:layout_gravity="center"
+                                android:textStyle="bold"
+                                android:textColor="#9C27B0"
+                                android:layout_marginBottom="10dp"
+                                />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/graphic"
+                        android:layout_width="150dp"
+                        android:layout_height="160dp"
+                        android:elevation="5dp"
+                        android:backgroundTint="#e0e0f9"
+                        tools:context=".MainActivity"
+                        android:layout_margin="3dp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:focusable="true"
+                        app:cardCornerRadius="12dp"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+
+
+                            <ImageView
+                                android:id="@+id/graphicImage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="100dp"
+                                android:src="@drawable/message"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="3dp"
+                                android:padding="15dp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:text="Graphic"
+                                android:layout_gravity="center"
+                                android:textStyle="bold"
+                                android:textColor="#9C27B0"
+                                android:layout_marginBottom="10dp"
+                                />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/app"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="5dp"
+                        android:backgroundTint="#e0e0f9"
+                        tools:context=".MainActivity"
+                        android:layout_margin="3dp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:focusable="true"
+                        app:cardCornerRadius="12dp"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+
+
+                            <ImageView
+                                android:id="@+id/appImage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="100dp"
+                                android:src="@drawable/message"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="3dp"
+                                android:padding="15dp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:text="App Development"
+                                android:layout_gravity="center"
+                                android:textStyle="bold"
+                                android:textColor="#9C27B0"
+                                android:layout_marginBottom="10dp"
+                                />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="2dp"
+            />
+
+    </RelativeLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_below="@id/topRelative"
+        android:layout_marginTop="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="2dp"
+                >
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:videoId="t0vo7LmHrD8"
+                    app:autoPlay="false"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="2dp"
+                >
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:videoId="mBkvMgBYJ90"
+                    app:autoPlay="false"
+                    android:outlineProvider="none"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="2dp"
+                >
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:videoId="uNNcfiqNajg"
+                    app:autoPlay="false"
+                    android:outlineProvider="none"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="2dp"
+                >
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:videoId="vomIhMTw8H4"
+                    app:autoPlay="false"
+                    android:outlineProvider="none"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="2dp"
+                >
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:videoId="ZYvbmVEwX14"
+                    app:autoPlay="false"
+                    android:outlineProvider="none"
+
+                    />
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="2dp"
+                >
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:videoId="JH-Yyb50ZvM"
+                    app:autoPlay="false"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="2dp"
+                >
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:videoId="e_dv7GBHka8"
+                    app:autoPlay="false"
+                    android:outlineProvider="none"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="2dp"
+                >
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:videoId="InigFUSiPl8"
+                    app:autoPlay="false"
+                    android:outlineProvider="none"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="2dp"
+                >
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:videoId="dS0PtshQDls"
+                    app:autoPlay="false"
+                    android:outlineProvider="none"
+
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

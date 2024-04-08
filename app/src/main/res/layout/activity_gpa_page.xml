@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Activity.GpaPage"
+    android:background="@drawable/learning"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@drawable/baseline_menu_24"
+        app:title="Gpa Ratting"
+        app:titleTextColor="@color/white"
+        android:background="#4958dc"
+        >
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+
+                <EditText
+                    android:layout_width="170dp"
+                    android:layout_height="90dp"
+                    android:textColorHint="#ffffff"
+                    android:hint="1st semester"
+                    android:layout_margin="4dp"
+                    android:background="#A1000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:inputType="numberDecimal"
+                    android:gravity="center"
+                    />
+
+
+                <EditText
+                    android:layout_width="170dp"
+                    android:layout_height="90dp"
+                    android:textColorHint="#ffffff"
+                    android:hint="2nd semester"
+                    android:layout_margin="4dp"
+                    android:background="#A1000000"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:inputType="numberDecimal"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+
+                <EditText
+                    android:layout_width="170dp"
+                    android:layout_height="90dp"
+                    android:textColorHint="#ffffff"
+                    android:hint="3rd semester"
+                    android:layout_margin="4dp"
+                    android:background="#A1000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:inputType="numberDecimal"
+                    android:gravity="center"
+                    />
+
+
+                <EditText
+                    android:layout_width="170dp"
+                    android:layout_height="90dp"
+                    android:textColorHint="#ffffff"
+                    android:hint="4th semester"
+                    android:layout_margin="4dp"
+                    android:background="#A1000000"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:inputType="numberDecimal"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+
+                <EditText
+                    android:layout_width="170dp"
+                    android:layout_height="90dp"
+                    android:textColorHint="#ffffff"
+                    android:hint="5th semester"
+                    android:layout_margin="4dp"
+                    android:background="#A1000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:inputType="numberDecimal"
+                    android:gravity="center"
+                    />
+
+
+                <EditText
+                    android:layout_width="170dp"
+                    android:layout_height="90dp"
+                    android:textColorHint="#ffffff"
+                    android:hint="6th semester"
+                    android:layout_margin="4dp"
+                    android:background="#A1000000"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:inputType="numberDecimal"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+
+                <EditText
+                    android:layout_width="170dp"
+                    android:layout_height="90dp"
+                    android:textColorHint="#ffffff"
+                    android:hint="7th semester"
+                    android:layout_margin="4dp"
+                    android:background="#A1000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:inputType="numberDecimal"
+                    android:gravity="center"
+                    />
+
+
+                <EditText
+                    android:layout_width="170dp"
+                    android:layout_height="90dp"
+                    android:textColorHint="#ffffff"
+                    android:hint="8th semester"
+                    android:layout_margin="4dp"
+                    android:background="#A1000000"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:inputType="numberDecimal"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:id="@+id/calculate"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:text="Reset"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="#009688"
+
+                    />
+
+                <Button
+                    android:id="@+id/reset"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:text="Calculate"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:backgroundTint="#4CAF50"
+                    />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:textColor="#ffffff"
+                    android:layout_margin="4dp"
+                    android:background="#A1000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Update Pending"
+                    android:gravity="center"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

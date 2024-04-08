@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Learning zone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="drawerClose">drawerClose</string>
+    <string name="drawerOPen">drawerOPen</string>
+    //aboutPage
+    <string name="profile">Md delowar Hossain \n App Developer \n Design </string>
+    <string name="gmail">mySelfabout432@gmail.com</string>
+    <string name="contact">+880 1648529374</string>
+    <string name="Address"> Sirajpur Companigong \n Noakhili </string>
+    <string name="Institute"> Feni computer Institute \n feni sodor</string>
+
+    //linkPage
+
+    <string name="technicalBoard">Bangladesh Technical Education Board </string>
+    <string name="skill">Skill and Training Enhancement Project (STEP)</string>
+    <string name="ministry">Ministry of Education</string>
+    <string name="IDEB">Institute of Diploma Engineers Bangladesh (IDEB)</string>
+    <string name="directorate">Directorate of Technical Education</string>
+
+    <string name="IEB">The Institute of Engineers Bangladesh (IEB)</string>
+    <string name="BNP">Bangladesh Nation Portal(BNP)</string>
+    <string name="WZPDCL">West Zone Power Distribution Company Limited (WZPDCL) </string>
+
+
+</resources>
